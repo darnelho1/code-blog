@@ -1,0 +1,116 @@
+html, body{
+    height: 99%;
+    /*border: 1px solid red;*/
+    overflow:hidden;
+}
+
+#blogWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 99%;
+  /*border: solid;*/
+  border-radius: 20px;
+  /*overflow-y: scroll;*/
+  /*position: relative;*/
+}
+
+#banner{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /*border: solid;*/
+  height: 100px;
+  padding-right: 40px;
+  color: white;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+#contentSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 1000px;
+  /*overflow-y: auto;*/
+  /*padding-top: 20px;*/
+  border: solid;
+  overflow: auto;
+  background-image: url("http://templatemints.com/rttheme13/images/background_images/abstract_background7.jpg");
+
+
+}
+
+.blogItem{
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: grey;
+  border-top: solid;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-top: 60px;
+  height: 400px;
+  width: 95%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*position: absolute;*/
+  /*overflow-y: auto;*/
+
+  /*width: 100%;*/
+  /*height: 99%;*/
+  /*border: 1px solid blue;*/
+  /*overflow: auto;
+  padding-right: 15px;*/
+}
+
+.blogItemGrow{
+  height: auto;
+  border: solid;
+  overflow-y: hidden;
+  border-radius: 50px;
+}
+
+.blogMeta{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 60%;
+  /*border: solid;*/
+  align-self: center;
+  color: white;
+}
+
+.bodyWrapper{
+  width: 98%;
+  align-self: center;
+  border-top: inset;
+  overflow-y: auto;
+  /*position: absolute;*/
+  -webkit-scrollbar display: none;
+
+}
+
+.bodyWrapper :-webkit-scrollbar { display: none;}
+
+li:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font: Verdana;
+
+}
+
+img {
+    /*float: right;*/
+    /*margin: 0 0 10px 10px;*/
+}
